@@ -18,7 +18,7 @@ app.use(cors());
 app.use(cookieParser());
 app.use('/imageupload' , imageuploadRoutes);
 
-/*function authenticateToken(req , res, next){
+/*eefunction authenticateToken(req , res, next){
    
     const token = req.headers.authorization.split(' ')[1]; // expected format: Bearer <token>
 
